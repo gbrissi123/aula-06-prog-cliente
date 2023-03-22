@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lixo Zero Web App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/2c11eee36b.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-gradient-to-br from-teal-600 to-teal-400">
+    <div class="flex flex-col justify-between">
+        
+        <div>
+            <h1 class="px-5 text-white mt-10 text-lg">Lixo Zero</h1>
+            <h2 class="px-5 text-white font-bold text-3xl">Nova avaliação</h2>
+            <hr class="border-teal-400 my-5">
+
+            <div class="flex flex-col space-y-5 px-5">
+                <div class="flex flex-col space-y-1">
+                    <div class="text-white font-bold">Avaliação</div>
+                    <div class='row-auto gap pb-3'>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="text-white text-sm">Qual o endereço?</div>
+                    <input
+                        class="ring ring-teal-400 border-0 p-3 bg-teal-700 text-white placeholder-teal-200 rounded outline-none"
+                        type="text" placeholder="Digite o endereço">
+                </div>
+
+                <div class="flex flex-col space-y-1">
+                    <div class="text-white text-sm">Relato</div>
+                    <input
+                        class="ring ring-teal-400 border-0 p-3 bg-teal-700 text-white placeholder-teal-200 rounded outline-none"
+                        type="text" placeholder="Digite aqui o motivo da sua avaliação">
+                </div>
+                
+                <div class="flex flex-col space-y-1">
+                    <div class="text-white font-bold">Anexe a foto do local</div>
+                    <div class="text-white text-sm">De preferência de dia.</div>
+                    <input class="text-white text-sm border-2 p-5 border-teal-400 rounded-lg" type="file"
+                        accept="image/*" />
+                </div>
+            </div>
+
+            <div class="flex flex-col px-5 pt-5">
+                <a href="home.html" class="bg-white py-4 w-full rounded text-teal-600 font-bold text-center">Fazer
+                    nova avaliação</a>
+
+                <div class="text-center pt-5">
+                    <a href="home.html" class="text-white">Voltar para a home</a>
+                </div>
+            </div>
+        </div>
+        <div class="text-center text-white py-10"></div>
+    </div>
+</body>
+
+</html>
